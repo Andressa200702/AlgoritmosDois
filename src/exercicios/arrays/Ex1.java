@@ -6,8 +6,8 @@ public class Ex1 {
         int [] num = {2, 6, 3};
         int soma = 0;
 
-        for (int i= 0; i < num.length; i++){
-            soma += num[i];
+        for (int j : num) {
+            soma += j;
         }
         System.out.println("A soma desse Array é: " + soma);
     }
