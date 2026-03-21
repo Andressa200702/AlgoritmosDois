@@ -17,8 +17,5 @@ public class Ex3 {
         Arrays.sort(num);
         System.out.println("Ordem crescente:");
         System.out.println(Arrays.toString(num));
-
-
-
     }
 }
